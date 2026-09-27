@@ -1,0 +1,27 @@
+{
+  "id": "el-primer-tajo",
+  "name": "El Primer Tajo",
+  "icon": "minecraft:iron_axe",
+  "description": "Rompe completamente un árbol con tus propias manos.\n\nRecoge madera y construye una mesa de crafteo.",
+  "category": "keo-rpg",
+  "sub-category": "el-despertar",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "completion": {
+    "complete": [
+      {
+        "collect": "minecraft:crafting_table",
+        "count": 1
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:cooked_beef",
+        "count": 5
+      }
+    ]
+  }
+}

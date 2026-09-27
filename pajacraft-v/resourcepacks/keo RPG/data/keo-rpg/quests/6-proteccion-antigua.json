@@ -1,0 +1,30 @@
+{
+  "id": "proteccion-antigua",
+  "name": "Proteccion antigua",
+  "icon": "confluence:tin_ingot",
+  "description": "El hierro aún se encuentra fuera de tu alcance;\n\nArmate con estaño, Solo cuando estés protegido, podrás enfrentar al primer gran desafío",
+  "category": "keo-rpg",
+  "sub-category": "el-despertar",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "el-primer-tajo",
+  "completion": {
+    "complete": [
+      {
+        "collect": "confluence:tin_ingot",
+        "count": 24
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 4
+      }
+    ],
+    "exp": "points",
+    "count": 200
+  }
+}

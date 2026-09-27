@@ -1,0 +1,20 @@
+#Whether to log the dirt block on common setup
+# Default: 500000.0
+# Range: 1.0 ~ 1.7976931348623157E308
+voidXDist = 500000.0
+#Whether to log the dirt block on common setup
+# Default: 50
+# Range: > 1
+voidXamount = 50
+#Whether to log the dirt block on common setup
+# Default: 500000.0
+# Range: 1.0 ~ 1.7976931348623157E308
+voidZDist = 500000.0
+#Whether to log the dirt block on common setup
+# Default: 50
+# Range: > 1
+voidZamount = 50
+#Whether to log the dirt block on common setup
+# Default: 100
+# Range: > 1
+voidYheight = 100

@@ -1,0 +1,28 @@
+{
+  "id": "item-perdido",
+  "name": "THE END!",
+  "icon": "unusualend:bouncy_dagger",
+  "description": "El end esta totalmente modificado!\n\nExplora y encontraras nuevos biomas, dungeons, jefes y minerales!",
+  "category": "keo-rpg",
+  "sub-category": "era-de-hierro",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "the-goblin-lord",
+  "completion": {
+    "complete": [
+      {
+        "kill": "unusualend:endstone_golem",
+        "count": 1
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "unusualend:warped_anchor",
+        "count": 1
+      }
+    ]
+  }
+}

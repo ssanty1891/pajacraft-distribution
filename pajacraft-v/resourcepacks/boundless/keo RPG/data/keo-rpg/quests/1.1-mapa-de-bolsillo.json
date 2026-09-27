@@ -1,0 +1,12 @@
+{
+  "id": "mapa-de-bolsillo",
+  "name": "¿y el mapa?",
+  "icon": "minecraft:map",
+  "description": "Presiona /b\"M\"/x para abrir el mapa y registrar tu aventura.\n\nSiempre puedes añadir el minimapa en la configuracion de /oxaero\u0027s/x",
+  "category": "keo-rpg",
+  "sub-category": "el-despertar",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "el-primer-tajo"
+}

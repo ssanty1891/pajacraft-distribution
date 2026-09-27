@@ -1,0 +1,28 @@
+{
+  "id": "create",
+  "name": "Create!",
+  "icon": "create:wrench",
+  "description": "Podras crear /ogranjas/x y /omaquinas/x que te ayudaran mucho en tu aventura!\n\n/rDe momento el añadido de este mod es una prueba, deberia de funcionar perfectamente pero en caso de encontrar errores hazmelo saber al discord!",
+  "category": "keo-rpg",
+  "sub-category": "era-de-hierro",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "la-primera-vez",
+  "completion": {
+    "complete": [
+      {
+        "collect": "create:potato_cannon",
+        "count": 1
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "create:rotation_speed_controller",
+        "count": 1
+      }
+    ]
+  }
+}

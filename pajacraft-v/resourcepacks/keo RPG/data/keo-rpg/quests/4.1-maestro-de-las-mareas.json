@@ -1,0 +1,28 @@
+{
+  "id": "maestro-de-las-mareas",
+  "name": "Maestro de las Mareas",
+  "icon": "starcatcher:starcatcher_rod",
+  "description": "Fabrica una /bCaña de Pescar de piedra/x y empieza tu coleccion de peces con /ostarcatcher/x",
+  "category": "keo-rpg",
+  "sub-category": "el-despertar",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "mochilas",
+  "completion": {
+    "complete": [
+      {
+        "collect": "starcatcher:starcatcher_rod",
+        "count": 1
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "starcatcher:worm",
+        "count": 15
+      }
+    ]
+  }
+}

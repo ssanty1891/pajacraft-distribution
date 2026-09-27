@@ -1,0 +1,17 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"the_wasteland_reworked:scute_shield"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_wasteland_reworked:scrap_metal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_wasteland_reworked:cartridge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_wasteland_reworked:shotgun"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_wasteland_reworked:hazmat_suit_leggings"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_wasteland_reworked:lead_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_wasteland_reworked:hazmat_suit_leggings","components":"{\"overgeared:forging_quality\":\"poor\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"the_wasteland_reworked:rubber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fantasy_armor:wandering_wizard_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fantasy_armor:evening_ghost_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fantasy_armor:moon_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fantasy_armor:golden_execution_leggings"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fantasy_armor:ronin_boots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fantasy_armor:thief_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

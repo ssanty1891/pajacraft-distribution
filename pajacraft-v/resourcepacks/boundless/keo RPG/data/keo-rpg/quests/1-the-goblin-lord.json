@@ -1,0 +1,28 @@
+{
+  "id": "the-goblin-lord",
+  "name": "The Goblin Lord",
+  "icon": "armageddon_mod:strange_coin",
+  "description": "Fabrica un /bStrange Coin/x y combate con The Goblin Lord para desbloquear el /ooro/x\n\n/oPara conseguir Diamante y seguir la progresion sigue las misiones de /rarmageddon!/x",
+  "category": "keo-rpg",
+  "sub-category": "era-de-hierro",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "la-primera-vez",
+  "completion": {
+    "complete": [
+      {
+        "kill": "armageddon_mod:the_gobelin_lord",
+        "count": 1
+      },
+      {
+        "collect": "armageddon_mod:strange_coin",
+        "count": 1
+      }
+    ]
+  },
+  "reward": {
+    "exp": "points",
+    "count": 200
+  }
+}

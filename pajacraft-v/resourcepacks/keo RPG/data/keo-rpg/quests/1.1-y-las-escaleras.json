@@ -1,0 +1,28 @@
+{
+  "id": "y-las-escaleras",
+  "name": "¿y las escaleras?",
+  "icon": "minecraft:oak_stairs",
+  "description": "/rLEER ESTA MISION!/x\n\nSi sostienes un bloque solido y presionas /bALT/x podras acceder a sus variaciones, incluso /olosas verticales!/x",
+  "category": "keo-rpg",
+  "sub-category": "el-despertar",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "el-primer-tajo",
+  "completion": {
+    "complete": [
+      {
+        "xp": "points",
+        "count": 5
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:experience_bottle",
+        "count": 15
+      }
+    ]
+  }
+}

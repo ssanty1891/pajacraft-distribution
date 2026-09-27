@@ -1,0 +1,8 @@
+{
+  "id": "introduccion",
+  "category": "confluence",
+  "name": "introduccion",
+  "icon": "confluence:guide_to_peaceful_coexistence",
+  "order": 1,
+  "default_open": true
+}

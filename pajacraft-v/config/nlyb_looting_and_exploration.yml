@@ -1,0 +1,84 @@
+# NLYB: Looting and Exploration — config
+# Edit values, save, then re-launch the world for changes to take effect.
+
+# How many partial fragments combine into one Basic Ghostchest in the crafting grid (1-9).
+fragmentsPerFull: 9
+
+# Chance (0.0-1.0) that opening a chest produces a Loot Table Fragment.
+# 0.25 = 25% per chest open.
+fragmentDropChance: 0.25
+
+# Energy (RF) consumed by the Loot Explorer per full roll (over the entire roll duration).
+rfPerRoll: 1000000
+
+# Roll duration in ticks (20 ticks = 1 second). Default 24000 = 20 minutes (no speed upgrades).
+rollDurationTicks: 24000
+# Roll duration with N speed upgrades inserted (1..4).
+rollDurationTicksUpgrade1: 20400  # 17 min
+rollDurationTicksUpgrade2: 15600  # 13 min
+rollDurationTicksUpgrade3: 9600   # 8 min
+rollDurationTicksUpgrade4: 6000   # 5 min
+
+# Whether the Loot Explorer requires a Coal Pearl in its consumable slot to roll.
+requireConsumable: true
+
+# Each vanilla pointed dripstone has a 1-in-N chance to be replaced by Coal Pearl Dripstone
+# during world generation. Lower N = more common.
+coalPearlDripstoneChanceOneInN: 10
+
+# Loot tables whose path/namespace contains any of these substrings are completely ignored:
+# no fragments drop from them, no fragment items are synced, the explorer cannot roll them.
+blacklistedTablePatterns:
+  - trial_chambers
+  - spawn_bonus_chest
+  - bonus_chest
+
+# Sapling species (substring match on the sapling Item id) to exclude from the Tree Minimizer.
+# Crafting an "X Sapling in a Bottle" with a blacklisted species fails, the Tree Minimizer
+# refuses to roll one already in its slot, and they don't appear in the creative tab/JEI.
+# Default: both azalea variants (regular + flowering) since the AZALEA TreeGrower doesn't
+# behave like a normal logs-and-leaves tree.
+blacklistedSaplingPatterns:
+  - azalea
+
+# Rarest-item override per loot table (used by the floating-items hologram fallback when
+# no structure model is available). Up to 2 items per table; format: 'tableId: [item1, item2]'.
+rarestOverrides:
+  minecraft:chests/end_city_treasure: [minecraft:chorus_fruit, minecraft:ender_pearl]
+  minecraft:chests/buried_treasure: [minecraft:heart_of_the_sea, minecraft:buried_treasure_map]
+  minecraft:chests/simple_dungeon: [minecraft:music_disc_13, minecraft:saddle]
+  minecraft:chests/abandoned_mineshaft: [minecraft:name_tag, minecraft:powered_rail]
+  minecraft:chests/woodland_mansion: [minecraft:totem_of_undying, minecraft:enchanted_golden_apple]
+  minecraft:chests/stronghold_corridor: [minecraft:enchanted_book, minecraft:diamond]
+  minecraft:chests/stronghold_crossing: [minecraft:ender_pearl, minecraft:redstone]
+  minecraft:chests/stronghold_library: [minecraft:enchanted_book, minecraft:book]
+  minecraft:chests/igloo_chest: [minecraft:golden_apple, minecraft:emerald]
+  minecraft:chests/desert_pyramid: [minecraft:enchanted_golden_apple, minecraft:diamond]
+  minecraft:chests/jungle_temple: [minecraft:emerald, minecraft:diamond_horse_armor]
+  minecraft:chests/jungle_temple_dispenser: [minecraft:arrow, minecraft:string]
+  minecraft:chests/nether_bridge: [minecraft:diamond_horse_armor, minecraft:gold_horse_armor]
+  minecraft:chests/ruined_portal: [minecraft:gold_block, minecraft:fire_charge]
+  minecraft:chests/shipwreck_treasure: [minecraft:emerald, minecraft:diamond]
+  minecraft:chests/shipwreck_map: [minecraft:map, minecraft:compass]
+  minecraft:chests/shipwreck_supply: [minecraft:bamboo, minecraft:carrot]
+  minecraft:chests/underwater_ruin_big: [minecraft:emerald, minecraft:enchanted_book]
+  minecraft:chests/underwater_ruin_small: [minecraft:dried_kelp, minecraft:emerald]
+
+# Manual structure -> chest-loot-table mapping.
+# Used as a fallback for non-jigsaw structures (mansion, mineshaft, stronghold, end_city, etc.)
+# whose chest loot tables are not referenced via standard datapack templates.
+structureMappings:
+  minecraft:mansion: [minecraft:chests/woodland_mansion]
+  minecraft:mineshaft: [minecraft:chests/abandoned_mineshaft]
+  minecraft:mineshaft_mesa: [minecraft:chests/abandoned_mineshaft]
+  minecraft:stronghold: [minecraft:chests/stronghold_corridor, minecraft:chests/stronghold_crossing, minecraft:chests/stronghold_library]
+  minecraft:igloo: [minecraft:chests/igloo_chest]
+  minecraft:desert_pyramid: [minecraft:chests/desert_pyramid]
+  minecraft:jungle_pyramid: [minecraft:chests/jungle_temple, minecraft:chests/jungle_temple_dispenser]
+  minecraft:fortress: [minecraft:chests/nether_bridge]
+  minecraft:end_city: [minecraft:chests/end_city_treasure]
+  minecraft:buried_treasure: [minecraft:chests/buried_treasure]
+  minecraft:shipwreck: [minecraft:chests/shipwreck_treasure, minecraft:chests/shipwreck_map, minecraft:chests/shipwreck_supply]
+  minecraft:shipwreck_beached: [minecraft:chests/shipwreck_treasure, minecraft:chests/shipwreck_map, minecraft:chests/shipwreck_supply]
+  minecraft:ocean_ruin_cold: [minecraft:chests/underwater_ruin_big, minecraft:chests/underwater_ruin_small]
+  minecraft:ocean_ruin_warm: [minecraft:chests/underwater_ruin_big, minecraft:chests/underwater_ruin_small]

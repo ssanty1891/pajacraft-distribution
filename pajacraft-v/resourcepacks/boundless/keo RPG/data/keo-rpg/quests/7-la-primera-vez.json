@@ -1,0 +1,34 @@
+{
+  "id": "la-primera-vez",
+  "name": "¿y el hierro?",
+  "icon": "armageddon_mod:iron_remote",
+  "description": "Para conseguir /ohierro/x fabrica el /bIron remote/x e invoca a /othe iron colossus!/x para poder usar y picar herramientas de hierro",
+  "category": "keo-rpg",
+  "sub-category": "el-despertar",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "el-primer-tajo",
+  "completion": {
+    "complete": [
+      {
+        "kill": "armageddon_mod:the_iron_colossus",
+        "count": 1
+      },
+      {
+        "collect": "armageddon_mod:iron_remote",
+        "count": 1
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "skill_tree_rpgs:orb_of_oblivion",
+        "count": 1
+      }
+    ],
+    "exp": "points",
+    "count": 100
+  }
+}

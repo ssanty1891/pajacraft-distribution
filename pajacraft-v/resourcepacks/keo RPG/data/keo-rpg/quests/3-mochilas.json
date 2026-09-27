@@ -1,0 +1,34 @@
+{
+  "id": "mochilas",
+  "name": "¡Mochilas!",
+  "icon": "sophisticatedbackpacks:backpack",
+  "description": "Necesitas algo que te permita llevar más objetos sin tener que volver constantemente a tu base.\n\nCrea tu primera mochila para comenzar a acumular tesoros y recursos del mundo.",
+  "category": "keo-rpg",
+  "sub-category": "el-despertar",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "el-primer-tajo",
+  "completion": {
+    "complete": [
+      {
+        "collect": "#curios:back",
+        "count": 1
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 4
+      },
+      {
+        "item": "chalk:white_chalk",
+        "count": 1
+      }
+    ],
+    "exp": "points",
+    "count": 20
+  }
+}

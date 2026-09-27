@@ -1,0 +1,24 @@
+{
+  "id": "pastel",
+  "name": "¿pastel?",
+  "icon": "pastel:guidebook",
+  "description": "Explorando el mundo desbloquearás este libro al encontrar /oamatista/x, /otopacio/x o algún otro elemento raro…\n\nSé curioso, este libro llegará a ti. Es la guía oficial del mod /b\"Pastel\"/x, un mod que nunca has jugado… prepárate para dejarte sorprender.",
+  "category": "keo-rpg",
+  "sub-category": "el-despertar",
+  "optional": false,
+  "repeatable": false,
+  "hiddenUnderDependency": false,
+  "dependencies": "mapa-de-bolsillo",
+  "completion": {
+    "complete": [
+      {
+        "collect": "pastel:guidebook",
+        "count": 1
+      }
+    ]
+  },
+  "reward": {
+    "exp": "points",
+    "count": 150
+  }
+}

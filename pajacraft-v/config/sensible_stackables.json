@@ -1,0 +1,12 @@
+{
+  "items": {
+    "ajolocoin:coin_copper": 999,
+    "ajolocoin:coin_iron": 999,
+    "ajolocoin:coin_gold": 999,
+    "ajolocoin:coin_diamond": 999,
+    "ajolocoin:coin_netherite": 999
+  },
+  "splashPotionCooldown": 1,
+  "uncapStackSize": true,
+  "commonStackSize": 64
+}

@@ -1,0 +1,10 @@
+#Descripción para moneda de cobre. Permite \n para múltiples líneas.
+coinCopperDescription = "Cobre: descripción editable"
+#Descripción para moneda de hierro. Permite \n para múltiples líneas.
+coinIronDescription = "Hierro: descripción editable"
+#Descripción para moneda de oro. Permite \n para múltiples líneas.
+coinGoldDescription = "Oro: descripción editable"
+#Descripción para moneda de diamante. Permite \n para múltiples líneas.
+coinDiamondDescription = "Diamante: descripción editable"
+#Descripción para moneda de netherita. Permite \n para múltiples líneas.
+coinNetheriteDescription = "Netherita: descripción editable"

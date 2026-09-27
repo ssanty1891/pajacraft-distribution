@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"iceandfire:dragonbone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:dragon_skull_lightning","components":"{\"iceandfire:dragon_skull\":{dragonAge:86,stage:4}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:dragonsteel_lightning_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

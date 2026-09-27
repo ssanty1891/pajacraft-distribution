@@ -1,0 +1,8 @@
+{
+  "id": "jefes",
+  "category": "confluence",
+  "name": "Jefes!",
+  "icon": "confluence:suspicious_looking_eye",
+  "order": 1,
+  "default_open": true
+}
