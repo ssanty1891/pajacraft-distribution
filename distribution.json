@@ -14,7 +14,16 @@
         "type": "neoforge",
         "version": "21.1.238"
       },
-      "modules": []
+      "modules": [
+        {
+          "id": "pajacraft-v-files",
+          "name": "Archivos PAJACRAFT V",
+          "type": "File",
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/ssanty1891/pajacraft-distribution/main/pajacraft-v/"
+          }
+        }
+      ]
     }
   ]
 }
