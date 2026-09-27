@@ -4,8 +4,8 @@
   "servers": [
     {
       "id": "pajacraft-v",
-      "name": "PAJACRAFT V",
-      "description": "Modpack de PAJACRAFT V",
+      "name": "PAJACRAFT V (Mundo Local)",
+      "description": "Servidor Oficial PAJACRAFT V",
       "icon": "https://raw.githubusercontent.com/ssanty1891/pajacraft-distribution/main/pajacraft-v/icon.png",
       "version": "1.21.1",
       "address": "127.0.0.1",
@@ -16,11 +16,11 @@
       },
       "modules": [
         {
-          "id": "pajacraft-v-files",
-          "name": "Archivos PAJACRAFT V",
-          "type": "File",
+          "id": "pajacraft-v-modpack",
+          "name": "Modpack PAJACRAFT V",
+          "type": "Modpack",
           "artifact": {
-            "url": "https://raw.githubusercontent.com/ssanty1891/pajacraft-distribution/main/pajacraft-v/"
+            "url": "https://raw.githubusercontent.com/ssanty1891/pajacraft-distribution/main/pajacraft-v/modpack.json"
           }
         }
       ]
